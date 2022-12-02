@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML forme</title>
+</head>
+<body>
+<h2>Forma 4</h2>
+
+  <form>
+    Odaberite grad:
+    <select name="grad">
+    	<option value="mostar">Mostar</option>
+    	<option value="siroki">Siroki Brijeg</option>
+    	<option value="sarajevo">Sarajevo</option>
+    </select>
+    <br><br>
+    
+    <textarea rows="10" cols="50" placeholder="Ovo je polje za unos teksta."></textarea>
+    
+    <br><br>
+    
+    <fieldset>
+      <legend>Osobni podaci</legend>
+      <label for="fname">Ime:</label><br>
+      <input type="text" id="fname" name="ime" required><br>
+      <label for="lname">Prezime:</label><br>
+      <input type="text" id="lname" name="prezime">
+    </fieldset>
+	
+	<br />
+    
+	<input type="submit" value="Potvrdi">
+    <button type="reset">Resetiraj</button>
+  </form> 
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML forme</title>
+</head>
+<body>
+  <h2>HTML forme 2</h2>
+
+  <form action="registracija.php">
+ 
+    <label for="username">Korisnicko ime:</label>
+    <input type="text" id="username" name="username"><br><br>
+    
+    <label for="password">Lozinka:</label>
+    <input type="password" id="password" name="password"><br><br>
+    
+    <label for="godine">Godine (od 18 do 90):</label>
+    <input type="number" min="18" max="90"
+           step="1" id="godine" name="godine"><br><br>
+    
+    <label for="bday">Datum rođenja:</label>
+    <input type="date" min="2022-12-01" id="bday" name="bday"><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <label for="url">Web adresa:</label>
+    <input type="url" id="url" name="url"><br><br>
+    
+    <label for="tel">Telefon:</label>
+    <input type="tel" id="tel" name="tel"><br><br>
+           
+    <input type="submit" value="Potvrdi">
+    <button type="reset">Resetiraj</button>
+  </form> 
+
+</body>
+</html>

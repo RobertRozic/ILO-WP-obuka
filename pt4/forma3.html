@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML forme</title>
+</head>
+<body>
+  <h2>Forma 3</h2>
+
+  <form method="post">
+    Spol:
+    <input type="radio" id="male"
+			name="spol" value="muski">
+    <label for="male">Muski</label>
+    <input type="radio" id="female"
+			name="spol" value="zenski">
+    <label for="male">Zenski</label>
+    <input type="radio" id="other"
+			name="spol" value="ostalo" checked>
+    <label for="other">Ostalo</label>
+    
+	<input type="hidden" name="token" value="dawpmdamwokdnaio0231">
+	
+    <br><br>
+    <input type="checkbox" id="vehicle1"
+			name="vehicle1" value="Biciklo">
+    <label for="vehicle1"> Imam bickilo</label><br>
+    <input type="checkbox" id="vehicle2"
+			name="vehicle2" value="Auto">
+    <label for="vehicle2"> Imam auto</label><br>
+    <input type="checkbox" id="vehicle3"
+			name="vehicle3" value="Brod">
+    <label for="vehicle3"> Imam brod</label>
+    
+    <br><br>
+    <label for="file">Učitaj životopis:</label>
+    <input type="file" name="file" accept=".doc" id="file" >
+	<br />
+    <input type="submit" value="Potvrdi">
+    <button type="reset">Resetiraj</button>  
+  </form> 
+
+</body>
+</html>
