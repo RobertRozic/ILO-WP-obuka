@@ -1,0 +1,26 @@
+body {
+	text-align: justify;
+	background: lightblue;
+	font-family: "Verdana", "Times New Roman", sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	color: blue;
+	font-weight: bold;
+}
+
+.p1 {
+	text-indent: 50px;
+}
+
+.p2 {
+	color: firebrick;
+	text-align:center;
+	text-decoration: underline;
+}
+
+.p3 {
+	text-align: right;
+	font-style: italic;
+}
