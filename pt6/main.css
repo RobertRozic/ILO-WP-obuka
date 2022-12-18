@@ -1,0 +1,46 @@
+body {
+	text-align: justify;
+	font-family: "Verdana", "Times New Roman", sans-serif;
+	background-image: url("https://cdn.pixabay.com/photo/2017/07/01/19/48/background-2462431_960_720.jpg");
+	background-repeat: repeat;
+	background-position: 50px;
+	background-attachment: fixed;
+	background: lightblue;
+}
+
+h1 {
+	font-size: 2em;
+	color: blue;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+.p1 {
+	text-indent: 50px;
+
+}
+
+.p2 {
+	color: red;
+	text-align:center;
+	text-decoration: underline;
+	border-style: solid;
+	border-width: 10px;
+	border-left-color: white;
+	border-right-color: black;
+	border-top-color: black;
+	border-bottom-color: white;
+	padding: 20px;
+	padding: 50px 10px 100px 15px;
+	padding: 30px 10px;
+	margin-left: 4em;
+}
+
+.p3 {
+	background-color: powderblue;
+	text-align: right;
+	font-style: italic;
+	border: thick inset red;
+	padding: 15px;
+	margin-left: 8em;
+}

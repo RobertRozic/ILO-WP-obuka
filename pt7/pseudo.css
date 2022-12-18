@@ -1,0 +1,35 @@
+#mojBtn {
+	background: powderblue;
+	width: 300px;
+	font-weight: bold;
+	padding: 40px;
+	text-align: center;
+	display: inline;
+}
+
+#mojBtn:hover {
+	background: green;
+	cursor: pointer;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: red;	
+}
+
+a:hover {
+    background-color: green;
+    color: white;
+}
+
+a:active {
+    background-color: brown;
+    color: yellow;
+}
+
+ul {
+	list-style-type: none;
+}

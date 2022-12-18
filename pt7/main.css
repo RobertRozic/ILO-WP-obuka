@@ -1,0 +1,36 @@
+p.center {
+	color: red;
+	text-align: center;
+}
+
+* {
+	padding: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: blue;
+	font-weight: bold;
+}
+
+div p {
+	background-color: pink;
+}
+
+div > p {
+	text-decoration: underline;
+}
+
+div ~ p {
+	background-color: yellow;	
+}
+
+#navbar > ul {
+	background: powderblue;
+}
+
+.center > span {
+	color: green;
+}
+
+h1.test {
+	color: yellow;
+}
